@@ -1,0 +1,544 @@
+/* style.css */
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	/* Extended fonts concept obtained from:
+	 * https://developers.google.com/fonts/docs/getting_started */
+	font-family: 'PT Sans Caption', serif;
+	/* Linear gradient concept obtained from:
+	 * http://www.w3schools.com/css/css3_gradients.asp */
+	background: linear-gradient(top, #000000 0%, #f0f0f0 100%);
+	background: -webkit-linear-gradient(top, #000000 0%, #f0f0f0 100%);
+	background: -moz-linear-gradient(top, #000000 0%, #f0f0f0 100%);
+	background: -o-linear-gradient(top, #000000 0%, #f0f0f0 100%);
+	background: -ms-linear-gradient(top, #000000 0%, #f0f0f0 100%);
+}
+
+header {
+	/* Film strip background image obtained from:
+	 * https://fishreelfilms.files.wordpress.com/2012/10/film-reel-logo-12.jpg 
+	 * File has been modified for our repetitive background. */
+	background-image: url('../images/nav_bg.png');
+	background-repeat: repeat-x;
+	color: #000000;
+	width: 100%;
+	height: 200px;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+.ticket-background {
+	background-color: #ffffff !important;
+}
+
+section {
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 10px;
+	width: 95%;
+	vertical-align: top;
+	box-shadow: 8px 8px 5px #000000;
+	line-height: 30px;
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Background responsivness concept obtained from:
+ * http://www.w3schools.com/cssref/pr_background-position.asp
+ * and
+ * http://www.w3schools.com/cssref/css3_pr_background-size.asp
+ *
+ * Background image obtained from:
+ * http://www.chicproductions.com/wp-content/uploads/2014/10/empty_cinema_room_by_malypluskwiak.jpg */
+h1 {
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	font-size: 25pt;
+	line-height: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	background-image: url('../images/h1_bg.png');
+       	background-repeat: no-repeat;
+       	background-size:cover;
+       	background-position:center bottom;
+       	border-radius: 10px;
+	height: 100px;
+}
+
+/* Background image obtained from:
+ * http://d1oi7t5trwfj5d.cloudfront.net/38/ba/e8b9769d42aea277e6e0e960278e/white-people-in-movie-theater.com-79937.jpg */
+h2 {
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	font-size: 20pt;
+	line-height: 40px;
+	padding-top: 40px;
+	padding-left: 20px;
+	background-image: url('../images/h2_bg.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center bottom;
+  border-radius: 10px;
+	height: 80px;
+}
+
+
+h3, h4 {
+	color: #474747;
+	font-weight: bold;
+}
+
+/* Responsive image concept obtained from:
+ * http://demosthenes.info/blog/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design */
+img {
+	max-width: 100%;
+	/* height: auto; */
+}
+
+footer {
+
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 10pt;
+	color: #808080;
+
+}
+
+footer.p {
+	vertical-align: text-middle;
+}
+
+nav {
+	display: inline-block;
+	position: absolute;
+	margin-top: 55px;
+}
+
+th, td {
+	padding: 10px 0 0 0;
+}
+
+.map {
+  margin: 0 auto;
+  width: 579px;
+  height: 447px;
+}
+
+.map th, td {
+  padding: 0 0 0 0;
+}
+
+hr {
+	border: 0px;
+	background-color: #f0f0f0;
+	height: 1px;
+}
+
+form {
+	margin-left:auto;
+	margin-right:auto;
+	padding: 25px 15px 25px 10px;
+}
+
+label {
+	display: block;
+	margin: 0px;
+}
+
+label span {
+  float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input, textarea, select, button {
+  border: 1px solid;
+  font-size: 12pt;
+  border-radius: 10px;
+  color: #000000;
+  background-color: #f0f0f0;
+	height: 30px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	padding: 3px 3px 3px 5px;
+	width: 70%;
+}
+
+button {
+  font-weight: bold;
+}
+
+textarea {
+	padding: 5px 3px 3px 5px;
+ 	height:100px;
+}
+
+button {
+	width: 20%;
+	align: center;
+	height: 25px;
+}
+
+select {
+  border: 1px solid;
+  font-size: 12pt;
+  border-radius: 10px;
+  color: #000000;
+  background-color: #f0f0f0;
+	width: 70%;
+	height: 40px;
+}
+
+.content {
+	margin-left: 10px;
+	display: inline-block;
+	width: 59%;
+}
+
+.movie {
+	margin-top: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.movie table {
+	height: 60px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.movie table:hover {
+	background-color: #f0f0f0;
+}
+
+.movie-cover {
+	width: 80px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.movie-cover img {
+	width: 80px;
+}
+
+.movie-title {
+	font-size: 16pt;
+	vertical-align: top;
+	padding-left: 20px;
+}
+
+.movie-description {
+	vertical-align: top;
+	padding-left: 20px;
+}
+
+.side {
+	margin-left: 15px;
+	display: inline-block;
+	width: 29%;
+}
+
+.menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu li {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	display: inline-block;
+	width: 120px;
+	margin-right: -4px;
+}
+
+.menu li a:hover {
+	color: #000000;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+}
+
+/* Hover effect concept obtained from:
+ * http://stackoverflow.com/questions/6008324/fade-effect-on-link-hover */
+.menu a {
+	text-decoration: none;
+	display: block;
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	-ms-transition: .3s;
+	border-radius: 10px;
+}
+
+.menu a:link,
+.menu a:visited {
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.menu a.active {
+	color: #ffffff;
+	background-color: #474747;
+}
+
+.times {
+	
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	
+}
+
+.times th {
+	
+	background-color: #9d9d9d;
+	text-align: center;
+	
+}
+
+.times td {
+
+	text-align: center;
+
+}
+
+.no-btn {
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	font-family: 'PT Sans Caption', serif;
+	font-size: small;
+}
+
+.total-column {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.top-column {
+  vertical-align: top;
+}
+
+.left-column {
+  text-align: left;
+}
+
+.right-column {
+  text-align: right;
+}
+
+.center-column {
+  text-align: center;
+}
+
+.padded-column {
+  padding-left: 30px;
+}
+
+.round-image {
+  border-radius: 10px;
+}
+
+.plain-text-input {
+  width: 100px;
+  border: 0px;
+  text-align: right;
+  background-color: #ffffff;
+}
+
+/* Sliding images concept obtained from the following tutorial:
+ * http://demosthenes.info/blog/627/Make-A-Responsive-CSS3-Image-Slider */
+@keyframes slidy {
+	0% { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; }
+	45% { left: -300%; }
+	55% { left: -300%; }
+	60% { left: 0%; }
+}
+
+@-webkit-keyframes slidy {
+	0% { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; }
+	45% { left: -300%; }
+	55% { left: -300%; }
+	60% { left: 0%; }
+}
+
+@-moz-keyframes slidy {
+	0% { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; }
+	45% { left: -300%; }
+	55% { left: -300%; }
+	60% { left: 0%; }
+}
+
+@-o-keyframes slidy {
+	0% { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; }
+	45% { left: -300%; }
+	55% { left: -300%; }
+	60% { left: 0%; }
+}
+
+@-ms-keyframes slidy {
+	0% { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; }
+	45% { left: -300%; }
+	55% { left: -300%; }
+	60% { left: 0%; }
+}
+
+div#slider {
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 400px;
+	width: 60%;
+}
+
+div#slider figure {
+	position: relative;
+	width: 400%;
+	margin: 0;
+	text-align: left;
+	animation: 30s slidy infinite;
+	-webkit-animation: 30s slidy infinite;
+	-moz-animation: 30s slidy infinite;
+	-o-animation: 30s slidy infinite;
+	-ms-animiation: 30s slidy infinite;
+}
+
+div#slider figure img {
+	width: 25%;
+	float: left;
+}
+
+/* Responsive page concept obtained from:
+ * http://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+@media screen and (max-width: 700px) {
+		header {
+			height: 100%;
+		}
+		nav {
+			display: inline;
+			position: initial;
+		}
+		.menu li {
+			width: 85%;
+			line-height: 30px;
+		}
+    #times-large {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+		body {
+			text-align: center;
+		}
+		nav {
+			display: inline;
+			position: initial;
+		}
+	  header {
+			background-image: url();
+			background-color: #000000;
+		}
+		section {
+			margin-top: 20px;
+		}
+    table {
+	  	overflow-x: auto;
+	  	display: block;
+	  }
+		.content {
+			width: 77%;
+			text-align: left;
+		}
+		.side {
+			width: 77%;
+			text-align: left;
+		}
+		.menu a:link,
+		.menu a:visited {
+			background-color: #474747;
+		}
+		.menu a.active {
+			color: #000000;
+			background-color: #ffffff;
+		}
+    #times-large {
+      display: none;
+    }
+    form label span {
+      width: 100%;
+      text-align: center;
+    }
+    input, textarea, select, button {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 950px) {
+		nav {
+			margin-top: 30px;
+		}
+		.menu li {
+			padding-left: 3px;
+			padding-top: 3px;
+			width: 100px;
+		}
+		.content {
+			width: 60%;
+		}
+		.side {
+			width: 24%;
+		}
+}
